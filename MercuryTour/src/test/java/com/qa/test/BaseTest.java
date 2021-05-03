@@ -18,9 +18,11 @@ public class BaseTest {
 	  
 	  System.setProperty("webdriver.chrome.driver", "D:\\seleniumJars\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
+	     System.out.println("lauched bowser");
 		driver.manage().window().maximize(); 
 		driver.get(Constant.appUrl);
         System.out.println("lauched the mercury url");
+	  
 	  
   }
 

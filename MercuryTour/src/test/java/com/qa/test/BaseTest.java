@@ -20,6 +20,7 @@ public class BaseTest {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize(); 
 		driver.get(Constant.appUrl);
+        System.out.println("lauched the mercury url");
 	  
   }
 
